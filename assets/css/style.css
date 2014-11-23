@@ -1,0 +1,261 @@
+/*-------------------------
+	 FONTS & BODY
+--------------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+ body {
+    /*    margin-top: 50px;*/
+    /*    margin-bottom: 50px;*/
+    background: none;
+    overflow-x: hidden !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+h4 {
+    font-weight: 100;
+}
+/*-------------------------
+	 BACKGROUND IMAGE
+--------------------------*/
+
+html {
+    background: url('/img/dark_spot.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+/*-------------------------
+	   NAVBAR (top)
+--------------------------*/
+
+.navbar {
+    opacity: ;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.brand a,
+.brand a:hover,
+.brand a:visited,
+.brand a:link,
+.brand a:active {
+    color: white;
+    text-decoration: none;
+}
+.brand {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+.display {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}
+.navbar-right {
+    margin-right: 14%;
+}
+.navbar-nav .display {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.mobile-nav {
+    font-size: 20px;
+    margin-right: 1110px;
+    display:
+}
+/*-------------------------
+     ENTRIES (overall)
+--------------------------*/
+
+.entry {
+    margin-bottom: 80px;
+    height: 100%;
+}
+.entry:last-child {
+    margin-bottom: 0px;
+    height: 100%;
+}
+/*-------------------------
+        TITLE (left)
+--------------------------*/
+
+.entry-title h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    position: relative;
+}
+.entry-content h1 {
+    visibility: hidden;
+    font-size: 0px;
+    margin: 0px;
+}
+/*-------------------------
+        CONTENT (right)
+--------------------------*/
+
+.entry-content {
+    background-color: #F6F6F6;
+    color: #3A4145;
+    font-size: 17px;
+    min-height: 750px;
+    padding: 70px 0px 70px 0px;
+}
+.entry-content img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.entry-content h6 {
+    padding: 0px 35px 0px 35px;
+    font-weight: 100;
+}
+.entry-content p:not(.big) {
+    padding: 0px 40px 0px 35px;
+    text-align: justify;
+}
+/*-------------------------
+        LISTS
+--------------------------*/
+
+.entry-content ul {
+    padding: 0px 70px 0px 70px;
+    text-align: justify;
+}
+.entry-content li {
+    margin: 5px 0px 0px 0px;
+}
+.entry-content li:first-child {
+    margin: 20px 0px 0px 0px;
+}
+.entry-content li:last-child {
+    margin: 5px 0px 20px 0px;
+}
+/*-------------------------
+        BLOCKQOUTE
+--------------------------*/
+
+blockquote {
+    font-size: 89%;
+    margin: 20px 0px 20px 0px;
+}
+/*-------------------------
+        CODE BLOCK
+--------------------------*/
+
+{
+    margin: 20px 40px 20px 40px;
+}
+/*-------------------------
+        FOOTER (bottom)
+--------------------------*/
+
+#footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+#description h4 {
+    margin-top: 30px;
+    margin-left: 40px;
+    text-transform: lowercase;
+    text-align: left;
+}
+#page-btn .btn {
+    margin-top: 29px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 10px;
+}
+#page-btn .btn:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+.older {
+    margin-left: 10%;
+}
+/*-------------------------
+        MOBILE VIEW
+--------------------------*/
+
+/*MOBILE VIEW*/
+
+@media screen and (max-width: 767px) {
+    .entry {
+        margin-bottom: 20px;
+    }
+    .entry-title {
+        padding: 0px;
+    }
+    .entry-title h1 {
+        visibility: hidden;
+        font-size: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container-fluid > .entry:first-child > div:nth-child(2) {
+        padding-top: 70px;
+    }
+    .entry-content h1 {
+        padding: 23px 45px 20px 35px;
+        visibility: visible;
+        font-size: 35px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: justify;
+    }
+    .entry-content h6 {
+        text-align: right;
+    }
+    .entry-content #writing {
+        font-size: 14px;
+    }
+    .brand {
+        padding-top: 8px;
+        padding-bottom: 10px;
+        font-size: 35px;
+        display: inline-block;
+        text-align: center;
+        margin-left: 40%;
+    }
+    #description h4 {
+        margin-top: 35px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    #footer {
+        height: 160px;
+        background-color: black;
+        color: white;
+    }
+}
+/*-------------------------
+        404 ERROR
+--------------------------*/
+
+.error {
+    color: #F6F6F6;
+}

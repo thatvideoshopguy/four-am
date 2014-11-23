@@ -1,0 +1,17 @@
+[23-Nov-2014 08:07:56 UTC] PHP Parse error:  syntax error, unexpected '6' (T_LNUMBER), expecting ';' in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:14:31 UTC] PHP Parse error:  syntax error, unexpected '6' (T_LNUMBER), expecting ';' in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:04 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:04 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:04 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:04 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:04 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:09 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:09 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:09 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:09 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 08:22:09 UTC] PHP Warning:  count() expects at least 1 parameter, 0 given in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 09:35:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fourapbo/public_html/app/views/main.html.php on line 20
+[23-Nov-2014 09:44:13 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/fourapbo/public_html/app/views/main.html.php on line 5
+[23-Nov-2014 09:48:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/fourapbo/public_html/app/views/main.html.php on line 3
+[23-Nov-2014 09:49:19 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/fourapbo/public_html/app/views/main.html.php on line 16
+[23-Nov-2014 09:49:26 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/fourapbo/public_html/app/views/main.html.php on line 16
